@@ -33,6 +33,6 @@ template:
 ```
 ...
 <% Puppet::Parser::Functions.function('memory_percentage') -%>
--m <%= function_memory_percentage('90') %>
+-m <%= scope.function_memory_percentage([90]) %>
 ...
 ```
