@@ -23,6 +23,7 @@ class memcached (
   ->
   class { "${module_name}::config":
     config_content => $config_content,
+    config_file    => $config_file,
     config_source  => $config_source
   }
   ->

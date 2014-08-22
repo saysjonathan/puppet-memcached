@@ -1,7 +1,7 @@
 # =Class: memcached::defaults
 # This class manages the default values for the memcached class
 
-class memecached::defaults {
+class memcached::defaults {
   # OS-specific defaults
   case $operatingsystem {
     Debian,Ubuntu: {
